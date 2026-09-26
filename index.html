@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Carnet de ukulélé</title>
+<meta name="description" content="Accords, chansons, exercices et séance du jour pour débuter au ukulélé.">
+<meta name="theme-color" content="#EEF2EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101614" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&display=swap">
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+
+:root{
+  --bg:#EEF2EE; --surface:#FFFFFF; --surface2:#E2E9E4; --ink:#1B2623; --muted:#5A6A65;
+  --line:#CBD6D0; --accent:#B45F1C; --accent-ink:#FFFFFF; --accent-soft:#F5E2CD;
+  --fill:rgba(180,95,28,.13); --teal:#2B685F; --teal-soft:#D3E5E0;
+  --rhythm:#34528F; --rhythm-soft:#DDE4F3; --chords:#8A3A6B; --chords-soft:#F2DDEA;
+  --shadow:0 1px 2px rgba(20,40,35,.07),0 8px 24px rgba(20,40,35,.07);
+  --display:"Bricolage Grotesque",ui-rounded,system-ui,sans-serif;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#101614; --surface:#18201D; --surface2:#212B27; --ink:#E5EDE9; --muted:#97A7A1;
+    --line:#2E3A36; --accent:#E49B55; --accent-ink:#1B1209; --accent-soft:#3A2A1A;
+    --fill:rgba(228,155,85,.16); --teal:#83C6BA; --teal-soft:#1D3430;
+    --rhythm:#A3B8EA; --rhythm-soft:#1F2842; --chords:#E3A2CB; --chords-soft:#3A2233;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#101614; --surface:#18201D; --surface2:#212B27; --ink:#E5EDE9; --muted:#97A7A1;
+  --line:#2E3A36; --accent:#E49B55; --accent-ink:#1B1209; --accent-soft:#3A2A1A;
+  --fill:rgba(228,155,85,.16); --teal:#83C6BA; --teal-soft:#1D3430;
+    --rhythm:#A3B8EA; --rhythm-soft:#1F2842; --chords:#E3A2CB; --chords-soft:#3A2233;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.app{max-width:720px;margin:0 auto;padding-inline:16px;padding-block:20px 110px}
+.app.in-song{padding-bottom:230px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.1}
+h1{font-size:1.9rem;font-weight:800;letter-spacing:-.01em}
+h2{font-size:1.6rem;font-weight:800}
+h3{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:28px 0 10px}
+.sub{color:var(--muted);margin:4px 0 0;font-size:.92rem}
+.lead{margin:12px 0 0;max-width:60ch}
+
+/* tab bar */
+.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;gap:8px;padding:8px 16px calc(8px + env(safe-area-inset-bottom,0px));z-index:5}
+.tab{flex:1;max-width:220px;display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:6px;border-radius:10px;color:var(--muted);font-size:.8rem;font-weight:700;cursor:pointer}
+.tab svg{width:24px;height:24px}
+.tab[aria-selected="true"]{color:var(--accent);background:var(--accent-soft)}
+
+/* chord diagrams */
+.dia{display:block;width:100%;height:auto}
+.dia .fret{stroke:var(--line);stroke-width:1.5}
+.dia .nut{stroke:var(--ink);stroke-width:4;stroke-linecap:round}
+.dia .str{stroke:var(--muted);stroke-width:1.2}
+.dia .dot{fill:var(--accent)}
+.dia .fing{fill:var(--accent-ink);font:700 10px var(--body);text-anchor:middle}
+.dia .open{fill:none;stroke:var(--ink);stroke-width:1.5}
+.dia .slab{fill:var(--muted);font:10px var(--body);text-anchor:middle}
+
+.chord-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px}
+.chord-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 12px 10px;cursor:pointer;text-align:left;display:flex;flex-direction:column;gap:6px}
+.chord-card:hover{border-color:var(--accent)}
+.chord-card .nm{font-family:var(--display);font-weight:800;font-size:1.5rem;line-height:1}
+.chord-card .dia{max-width:110px;margin:0 auto}
+.chord-card .unl{font-size:.78rem;color:var(--muted)}
+.chord-card.known .nm::after{content:"acquis";font-family:var(--body);font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);background:var(--teal-soft);border-radius:99px;padding:2px 7px;margin-left:8px;vertical-align:middle}
+
+/* songs */
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.search{display:flex;align-items:center;gap:8px;margin-top:16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:0 12px;color:var(--muted)}
+.search:focus-within{border-color:var(--accent)}
+.search svg{width:18px;height:18px;flex:0 0 auto}
+.search input{flex:1;min-width:0;border:0;background:none;color:var(--ink);font:inherit;padding:11px 0;outline:none}
+.ex-pattern{font-family:var(--display);font-weight:700;letter-spacing:.12em;color:var(--ink)}
+.fchip{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 12px;font-size:.86rem;cursor:pointer}
+.fchip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.song-list{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+.song{display:grid;grid-template-columns:1fr auto;gap:6px 12px;align-items:start;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;cursor:pointer}
+.song:hover{border-color:var(--accent)}
+.song-title{font-family:var(--display);font-weight:700;font-size:1.12rem;line-height:1.2;display:block}
+.song-artist{color:var(--muted);font-size:.86rem;display:block}
+.diff{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+.dots{display:flex;gap:3px}
+.dots i{width:9px;height:9px;border-radius:50%;background:var(--line)}
+.dots i.on{background:var(--accent)}
+.diff small{font-size:.72rem;color:var(--muted)}
+.song-meta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font-size:.74rem;font-weight:700;letter-spacing:.03em;border-radius:99px;padding:2px 9px;background:var(--surface2);color:var(--muted)}
+.chip.genre{background:var(--teal-soft);color:var(--teal)}
+.chordlist{font-family:var(--display);font-weight:700;font-size:.9rem;display:flex;gap:6px;flex-wrap:wrap}
+.chordlist .new{color:var(--accent)}
+.empty{color:var(--muted);padding:20px 0}
+.qbar{display:flex;gap:3px;margin-top:14px}
+.qbar i{flex:1;height:6px;border-radius:3px;background:var(--line)}
+.qbar i.done{background:var(--teal)}
+.qbar i.cur{background:var(--accent)}
+.qmeta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 12px;margin-top:6px;font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.items{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+.item{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:stretch}
+.check{width:44px;border:1px solid var(--line);border-radius:14px;background:var(--surface);cursor:pointer;display:grid;place-items:center;color:var(--line)}
+.check svg{width:22px;height:22px}
+.check[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:var(--bg)}
+.item.is-done .song{opacity:.6}
+.kind{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tag-r{background:var(--rhythm-soft);color:var(--rhythm)}
+.tag-a{background:var(--chords-soft);color:var(--chords)}
+.goalchip{background:var(--accent-soft);color:var(--accent)}
+.finish{margin-top:18px;width:100%;border:0;border-radius:14px;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:1rem;padding:14px;cursor:pointer}
+.finish.soft{background:var(--surface2);color:var(--ink)}
+.linkbtn{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;padding:8px 0;font-size:.86rem}
+.saveinfo{font-size:.78rem;color:var(--muted);margin-top:14px}
+.goal{margin:12px 0 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.donebtn{border:1px solid var(--teal);background:var(--teal-soft);color:var(--teal);border-radius:99px;padding:6px 12px;font-weight:700;cursor:pointer;font-size:.86rem}
+
+/* song view */
+.back{background:none;border:0;color:var(--accent);font-weight:700;padding:6px 0;cursor:pointer;margin-bottom:6px}
+.facts{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.facts .chip{font-size:.8rem;padding:4px 10px}
+.note{margin:12px 0 0;font-size:.9rem;color:var(--muted);max-width:62ch}
+.strip{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.mini{flex:0 0 84px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px 6px 4px;cursor:pointer;text-align:center}
+.mini .nm{font-family:var(--display);font-weight:800;font-size:1.05rem}
+.mini.new{border-color:var(--accent)}
+.mini .dia{max-width:70px;margin:0 auto}
+.section{margin-top:18px}
+.section-name{font-weight:700;font-size:.92rem;margin-bottom:8px;display:flex;gap:8px;align-items:baseline}
+.section-name small{color:var(--muted);font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.bar{position:relative;display:flex;gap:2px;background:var(--surface);border:1px solid var(--line);border-radius:10px;min-height:60px;overflow:hidden}
+.bar .num{position:absolute;top:3px;left:6px;font-size:.62rem;color:var(--muted);font-variant-numeric:tabular-nums;pointer-events:none}
+.cb{position:relative;z-index:1;flex:1;min-width:0;font:800 1.18rem var(--display);background:none;border:0;padding:16px 0 6px;cursor:pointer;border-radius:8px}
+.cb.new{text-decoration:underline dotted var(--accent);text-underline-offset:4px;text-decoration-thickness:2px}
+.cb.now{color:var(--accent)}
+.bar.active{border-color:var(--accent)}
+.fill{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--fill);pointer-events:none}
+.head{position:absolute;top:0;bottom:0;width:2px;margin-left:-1px;background:var(--accent);pointer-events:none}
+.ext{display:inline-block;margin-top:22px;color:var(--accent);font-weight:700}
+
+/* player */
+.player{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);box-shadow:var(--shadow);padding:10px 16px calc(12px + env(safe-area-inset-bottom,0px));z-index:6}
+.pin{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+.prow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.playbtn{width:58px;height:58px;border-radius:50%;border:0;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;cursor:pointer;flex:0 0 auto}
+.playbtn svg{width:26px;height:26px}
+.nowbox{display:flex;align-items:baseline;gap:10px;min-width:0;flex:1}
+.nowchord{font:800 2.2rem/1 var(--display);min-width:2.2ch}
+.nextchord{color:var(--muted);font-size:.9rem;white-space:nowrap}
+.pattern{display:flex;gap:2px;font:700 1.05rem var(--display);font-variant-numeric:tabular-nums}
+.pattern span{width:20px;text-align:center;border-radius:5px;color:var(--muted)}
+.pattern span.stroke{color:var(--ink)}
+.pattern span.hit{background:var(--accent);color:var(--accent-ink)}
+.ctrls{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;font-size:.86rem}
+.speed{display:flex;align-items:center;gap:8px;flex:1;min-width:190px}
+.speed input{flex:1;accent-color:var(--accent)}
+.speed output{font-variant-numeric:tabular-nums;min-width:62px;text-align:right;color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:99px;overflow:hidden}
+.seg button{border:0;background:none;padding:5px 11px;cursor:pointer;font-size:.84rem}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.loop{display:flex;align-items:center;gap:6px;cursor:pointer}
+.loop input{accent-color:var(--accent);width:18px;height:18px}
+
+/* modal */
+.modal{position:fixed;inset:0;background:rgba(10,18,16,.55);display:grid;place-items:end center;z-index:10;padding:16px}
+@media (min-width:600px){.modal{place-items:center}}
+.sheet{background:var(--surface);border-radius:20px;width:100%;max-width:380px;padding:20px 20px calc(20px + env(safe-area-inset-bottom,0px));box-shadow:var(--shadow);position:relative}
+.sheet .x{position:absolute;top:10px;right:10px;width:38px;height:38px;border-radius:50%;border:0;background:var(--surface2);cursor:pointer;font-size:1.2rem}
+.sheet .big-name{font:800 3rem/1 var(--display)}
+.sheet .dia{max-width:190px;margin:12px auto}
+.sheet p{margin:6px 0 14px;font-size:.95rem}
+.listen{width:100%;border:0;border-radius:12px;background:var(--accent);color:var(--accent-ink);font-weight:700;padding:12px;cursor:pointer}
+.pill-known{display:inline-block;margin-left:8px;vertical-align:middle;font:700 .7rem var(--body);letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:3px 8px;background:var(--teal-soft);color:var(--teal)}
+.pill-new{background:var(--accent-soft);color:var(--accent)}
+@media (max-width:420px){
+  .cb{font-size:1.02rem}
+  .nowchord{font-size:1.9rem}
+}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important}}
+
+.app{padding-top:max(20px,calc(env(safe-area-inset-top,0px) + 12px))}
+.update{position:fixed;left:16px;right:16px;top:calc(env(safe-area-inset-top,0px) + 10px);z-index:20;background:var(--ink);color:var(--bg);border-radius:14px;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px;box-shadow:var(--shadow);max-width:688px;margin:0 auto;font-size:.92rem}
+.update button{border:0;border-radius:99px;background:var(--accent);color:var(--accent-ink);font-weight:700;padding:7px 14px;cursor:pointer}
+.filebtn{display:block;text-align:center;border:1.5px dashed var(--line);border-radius:14px;padding:16px;cursor:pointer;font-weight:700;color:var(--accent);background:var(--surface)}
+.filebtn:hover{border-color:var(--accent)}
+textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:.85rem/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;padding:10px;resize:vertical}
+textarea:focus{outline:none;border-color:var(--accent)}
+.soft-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:11px 14px;font-weight:700;cursor:pointer;width:100%}
+.result{margin-top:12px;border-radius:12px;padding:10px 14px;font-size:.9rem}
+.result p{margin:4px 0}
+.result.ok{background:var(--teal-soft);color:var(--teal)}
+.result.bad{background:var(--accent-soft);color:var(--ink)}
+.crow{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:8px 0}
+.crow b{display:block}
+.crow small{color:var(--muted)}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--accent);font-weight:700}
+.manage-link{display:block;margin-top:6px}
+
+</style>
+</head>
+<body>
+
+
+<main class="app" id="app">
+  <section id="view-today" hidden>
+    <h1 id="today-title">Aujourd'hui</h1>
+    <p class="sub" id="today-sub"></p>
+    <div class="qbar" id="qbar" aria-hidden="true"></div>
+    <div class="qmeta"><span id="qpos"></span><span id="qlast"></span></div>
+    <div class="items" id="today-items"></div>
+    <button class="finish" id="finish"></button>
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px"><button class="linkbtn" id="prev-session">← Refaire la séance précédente</button></div>
+    <p class="saveinfo" id="saveinfo"></p>
+    <button class="linkbtn manage-link" data-go="manage">Mes contenus, imports et sauvegardes</button>
+  </section>
+
+  <section id="view-manage" hidden>
+    <button class="back" data-go="today">← Aujourd'hui</button>
+    <h1>Mes contenus</h1>
+    <p class="sub">Ajoute des chansons, des exercices ou des séances à partir d'un fichier JSON.</p>
+    <h3>Importer</h3>
+    <label class="filebtn" for="imp-file">Choisir un fichier .json</label>
+    <input type="file" id="imp-file" accept=".json,application/json,text/plain" hidden>
+    <textarea id="imp-text" rows="6" placeholder="…ou colle le JSON ici" aria-label="JSON à importer"></textarea>
+    <button class="finish" id="imp-go" style="margin-top:10px">Importer le texte collé</button>
+    <div id="imp-result" class="result" hidden></div>
+    <h3>Contenus importés</h3>
+    <div id="custom-list"></div>
+    <h3>Créer du contenu avec Claude</h3>
+    <p class="lead" style="margin:0 0 10px;font-size:.92rem">Copie ce message dans une conversation avec Claude, écris ta demande à la fin (« ajoute 3 chansons de Beirut », « prépare 5 séances sur le Bm »), puis importe ici le JSON qu'il te rend. Le message contient le format, tes accords et les identifiants existants.</p>
+    <button class="soft-btn" id="copy-prompt">Copier le message pour Claude</button>
+    <h3>Sauvegarde</h3>
+    <p class="lead" style="margin:0 0 10px;font-size:.92rem">Ta progression et tes imports restent sur ce téléphone. Exporte une sauvegarde de temps en temps : pour la restaurer, sur ce téléphone ou un autre, importe le fichier ci-dessus.</p>
+    <button class="soft-btn" id="export">Exporter une sauvegarde</button>
+    <button class="linkbtn" id="reset-custom">Supprimer tous les contenus importés</button>
+  </section>
+
+  <section id="view-chords" hidden>
+    <h1>Mes accords</h1>
+    <p class="sub">Accordage standard G C E A · touche un accord pour l'agrandir et l'écouter</p>
+    <h3>Tu les connais déjà</h3>
+    <div class="chord-grid" id="known-grid"></div>
+    <h3>À apprendre ensuite</h3>
+    <p class="lead" style="margin:0 0 12px;color:var(--muted);font-size:.9rem">Classés par nombre de chansons du carnet qu'ils débloquent. Les chiffres sur les points indiquent le doigt : 1 index, 2 majeur, 3 annulaire.</p>
+    <div class="chord-grid" id="new-grid"></div>
+  </section>
+
+  <section id="view-songs">
+    <h1>Carnet de ukulélé</h1>
+    <p class="sub" id="songs-sub">Chansons pour voix alto-mezzo · grilles d'accords avec lecteur</p>
+    <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Titre, artiste, accord…" aria-label="Rechercher une chanson" autocomplete="off"></div>
+    <div class="filters" id="filters"></div>
+    <div class="song-list" id="song-list"></div>
+  </section>
+
+  <section id="view-training" hidden>
+    <h1>Entraînement</h1>
+    <p class="sub">Exercices en boucle · touche un exercice puis lecture</p>
+    <p class="lead" style="font-size:.92rem;color:var(--muted)">Pour les changements d'accords, la méthode classique : une minute par paire, sans t'arrêter, en comptant combien de changements tu réussis. Commence lentement, en rythme Simple, et monte la vitesse seulement quand la main arrive à l'heure.</p>
+    <h3>Rythme</h3>
+    <div class="song-list" id="ex-strum"></div>
+    <h3>Changements d'accords</h3>
+    <div class="song-list" id="ex-change"></div>
+    <h3>Enchaînements</h3>
+    <div class="song-list" id="ex-seq"></div>
+  </section>
+
+  <section id="view-song" hidden></section>
+</main>
+
+<nav class="tabs" id="tabs" role="tablist">
+  <button class="tab" role="tab" data-tab="today" aria-selected="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>
+    Aujourd'hui</button>
+  <button class="tab" role="tab" data-tab="songs" aria-selected="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>
+    Chansons</button>
+  <button class="tab" role="tab" data-tab="chords" aria-selected="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M5 8h14M9.7 3v18M14.3 3v18"/><circle cx="12" cy="13" r="1.6" fill="currentColor"/></svg>
+    Accords</button>
+  <button class="tab" role="tab" data-tab="training" aria-selected="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg>
+    Entraînement</button>
+</nav>
+
+<div class="player" id="player" hidden>
+  <div class="pin">
+    <div class="prow">
+      <button class="playbtn" id="playbtn" aria-label="Lecture"></button>
+      <div class="nowbox"><span class="nowchord" id="nowchord">–</span><span class="nextchord" id="nextchord">prêt</span></div>
+      <div class="pattern" id="pattern" aria-label="Rythme de grattage"></div>
+    </div>
+    <div class="ctrls">
+      <label class="speed" for="speed">Vitesse <input type="range" id="speed" min="0.5" max="1" step="0.05" value="0.8"><output id="bpm">– bpm</output></label>
+      <div class="seg" role="group" aria-label="Rythme">
+        <button id="m-simple" data-mode="simple" aria-pressed="true">Simple</button>
+        <button id="m-full" data-mode="full" aria-pressed="false">Complet</button>
+      </div>
+      <label class="loop"><input type="checkbox" id="loop"> Boucle</label>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="m-name">
+  <div class="sheet" id="sheet"></div>
+</div>
+
+<div class="update" id="update" hidden><span>Nouvelle version disponible</span><button id="update-go">Mettre à jour</button></div>
+<script src="app.js"></script>
+</body>
+</html>

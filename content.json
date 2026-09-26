@@ -1,0 +1,4105 @@
+{
+ "version": 1,
+ "known": [
+  "C",
+  "Am",
+  "F",
+  "G",
+  "E7",
+  "Cmaj7"
+ ],
+ "chords": {
+  "C": {
+   "frets": [
+    0,
+    0,
+    0,
+    3
+   ],
+   "fingers": [
+    0,
+    0,
+    0,
+    3
+   ],
+   "tip": "Un seul doigt : l'annulaire sur la 3e case de la corde de La (la plus fine)."
+  },
+  "Am": {
+   "frets": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "fingers": [
+    2,
+    0,
+    0,
+    0
+   ],
+   "tip": "Le majeur sur la 2e case de la corde de Sol (la plus proche de ton visage)."
+  },
+  "F": {
+   "frets": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "fingers": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "tip": "Garde le majeur de Am et ajoute l'index 1re case sur Mi. De Am à F, on ajoute juste un doigt."
+  },
+  "G": {
+   "frets": [
+    0,
+    2,
+    3,
+    2
+   ],
+   "fingers": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "tip": "Un petit triangle : index 2e case sur Do, majeur 2e case sur La, annulaire 3e case sur Mi."
+  },
+  "E7": {
+   "frets": [
+    1,
+    2,
+    0,
+    2
+   ],
+   "fingers": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "tip": "Index 1re case sur Sol, majeur 2e case sur Do, annulaire 2e case sur La."
+  },
+  "Dm": {
+   "frets": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "fingers": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "tip": "C'est F plus l'annulaire 2e case sur Do. Passe de F à Dm en posant un seul doigt."
+  },
+  "D": {
+   "frets": [
+    2,
+    2,
+    2,
+    0
+   ],
+   "fingers": [
+    1,
+    2,
+    3,
+    0
+   ],
+   "tip": "Trois doigts serrés côte à côte sur la 2e case (Sol, Do, Mi). Certains préfèrent un seul doigt couché en petit barré."
+  },
+  "Em": {
+   "frets": [
+    0,
+    4,
+    3,
+    2
+   ],
+   "fingers": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tip": "Un escalier : index 2e case sur La, majeur 3e case sur Mi, annulaire 4e case sur Do."
+  },
+  "G7": {
+   "frets": [
+    0,
+    2,
+    1,
+    2
+   ],
+   "fingers": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tip": "Le triangle de G retourné : index 1re case sur Mi, majeur 2e sur Do, annulaire 2e sur La."
+  },
+  "C7": {
+   "frets": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "fingers": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "tip": "Le plus facile de tous : l'index 1re case sur la corde de La."
+  },
+  "Cmaj7": {
+   "frets": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "fingers": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "tip": "Le majeur sur la 2e case de la corde de La. Toutes les autres cordes à vide."
+  },
+  "A": {
+   "frets": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "fingers": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "tip": "Majeur 2e case sur Sol, index 1re case sur Do. Les deux doigts se touchent presque."
+  },
+  "D7": {
+   "frets": [
+    2,
+    0,
+    2,
+    0
+   ],
+   "fingers": [
+    1,
+    0,
+    2,
+    0
+   ],
+   "tip": "Deux doigts sur la 2e case : index sur Sol, majeur sur Mi. Les cordes Do et La restent à vide."
+  },
+  "Bb": {
+   "frets": [
+    3,
+    2,
+    1,
+    1
+   ],
+   "fingers": [
+    3,
+    2,
+    1,
+    1
+   ],
+   "tip": "Le premier barré : l'index couché sur la 1re case des cordes Mi et La, majeur 2e case sur Do, annulaire 3e case sur Sol."
+  }
+ },
+ "songs": [
+  {
+   "id": "anyoneelse",
+   "title": "Anyone Else But You",
+   "artist": "The Moldy Peaches",
+   "year": 2001,
+   "genre": "Anti-folk",
+   "key": "G",
+   "bpm": 112,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Celle que tu joues déjà : deux accords, G et Cmaj7, de la même grille jusqu'à la fin (ukutabs.com).",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "Cmaj7"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Cmaj7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "postcards",
+   "title": "Postcards from Italy",
+   "artist": "Beirut",
+   "year": 2006,
+   "genre": "Indie folk",
+   "key": "C",
+   "bpm": 135,
+   "bpb": 4,
+   "pattern": "DUDUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Grille ukutabs.com (original en Fa) transposée en C : le A devient E7 et le Bbadd9 devient F, donc uniquement tes accords. Tempo rapide : démarre vers 60 %.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nantes",
+   "title": "Nantes",
+   "artist": "Beirut",
+   "year": 2007,
+   "genre": "Indie folk",
+   "key": "C",
+   "bpm": 100,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Trois accords sur tout le morceau d'après ukutabs.com (original en Sol bémol), transposé en C : Am, G, C. Durées par accord approximatives.",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "elephantgun",
+   "title": "Elephant Gun",
+   "artist": "Beirut",
+   "year": 2007,
+   "genre": "Indie folk",
+   "key": "C",
+   "bpm": 140,
+   "bpb": 3,
+   "pattern": "D-DUD-",
+   "simple": "D-D-D-",
+   "diff": 2,
+   "note": "Valse. Grille ukutabs.com (original en La bémol) transposée en C : Dm, G7, C, F sur tout le morceau. Nouveaux : Dm et G7.",
+   "sections": [
+    {
+     "name": "Couplet et refrain",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "F"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jimmy",
+   "title": "Jimmy",
+   "artist": "Moriarty",
+   "year": 2007,
+   "genre": "Indie folk",
+   "key": "Am",
+   "bpm": 100,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Grille ukutabs.com (original en Si bémol mineur), transposée d'un demi-ton en Am : uniquement tes accords. Solos non inclus, tempo approximatif.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "queenbee",
+   "title": "Queen Bee",
+   "artist": "Johnny Flynn",
+   "year": 2008,
+   "genre": "Indie folk",
+   "key": "C",
+   "bpm": 120,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Grille ukutabs.com, tonalité d'origine : C, F, G, Am, que des accords que tu connais. Tempo approximatif.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ]
+     ]
+    },
+    {
+     "name": "Pont",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hongkong",
+   "title": "Hong Kong Cemetery",
+   "artist": "Johnny Flynn",
+   "year": 2010,
+   "genre": "Indie folk",
+   "key": "Am",
+   "bpm": 110,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com (original en Ré mineur) transposée en Am pour éviter le Si bémol. Seul accord nouveau : D, dans le pont. Tempo approximatif.",
+   "sections": [
+    {
+     "name": "Couplet et refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Pré-refrain",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Pont",
+     "bars": [
+      [
+       "D"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "onmyway",
+   "title": "On My Way",
+   "artist": "Cocoon",
+   "year": 2007,
+   "genre": "Indie folk",
+   "key": "Am",
+   "bpm": 92,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukulele-tabs.com (en Mi mineur, avec un B7 difficile) transposée en Am : le B7 devient E7. Gsus2 simplifié en C. Seul accord nouveau : D. Transposée, elle sonne plus haut ou plus bas que l'original : vérifie qu'elle te va.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "D"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "E7"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "F"
+      ],
+      [
+       "D"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quizas",
+   "title": "Quizás, quizás, quizás",
+   "artist": "Osvaldo Farrés",
+   "year": 1947,
+   "lang": "es",
+   "genre": "Latino",
+   "key": "Am",
+   "bpm": 100,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukulele-tabs.com (version Nat King Cole, en Do mineur) transposée en Am pour éviter Cm et Fm. Le Cdim7 du pont est remplacé par E7. Tu la chantes déjà : si la tonalité ne te convient pas, dis-le-moi.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "Pont",
+     "bars": [
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "A"
+      ],
+      [
+       "A"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "blackberry",
+   "title": "Blackberry Stone",
+   "artist": "Laura Marling",
+   "year": 2010,
+   "genre": "Indie folk",
+   "key": "Am",
+   "bpm": 80,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Grille ukutabs.com (original en Si mineur) transposée d'un ton plus bas en Am : F# devient E7, donc uniquement tes accords. À l'origine en arpèges plutôt que grattée.",
+   "sections": [
+    {
+     "name": "Intro",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "F"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "Pont",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alas",
+   "title": "Alas I Cannot Swim",
+   "artist": "Laura Marling",
+   "year": 2008,
+   "genre": "Indie folk",
+   "key": "G",
+   "bpm": 100,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com, tonalité d'origine gardée pour ta voix. Nouveaux : D et Em. Tempo approximatif.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "G"
+      ],
+      [
+       "D"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "G"
+      ],
+      [
+       "D"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Interlude",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Pont",
+     "bars": [
+      [
+       "Em"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "D"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "april",
+   "title": "April Come She Will",
+   "artist": "Simon & Garfunkel",
+   "year": 1966,
+   "genre": "Indie folk",
+   "key": "G",
+   "bpm": 108,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com, tonalité d'origine. Fmaj7 simplifié en F. Nouveaux : Em et D. Se joue normalement en arpèges : le lecteur gratte pour garder le repère.",
+   "sections": [
+    {
+     "name": "Intro",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "C"
+      ],
+      [
+       "D"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Variation",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Em"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "somethingway",
+   "title": "Something in the Way",
+   "artist": "Nirvana",
+   "year": 1991,
+   "genre": "Ballade rock",
+   "key": "Am",
+   "bpm": 55,
+   "bpb": 4,
+   "pattern": "D---D-D-",
+   "simple": "D-------",
+   "diff": 1,
+   "note": "Deux accords sur tout le morceau (ukutabs.com, original en Fa mineur) transposés en Am et F. Un seul coup vers le bas par mesure en mode Simple, comme conseillé.",
+   "sections": [
+    {
+     "name": "Couplet et refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "greencolour",
+   "title": "Green Is the Colour",
+   "artist": "Pink Floyd",
+   "year": 1969,
+   "genre": "Ballade rock",
+   "key": "C",
+   "bpm": 100,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Face B de la bande originale de More. Grille ukutabs.com (en G) transposée en C pour éviter le Bm : seul accord nouveau, Em. Gratte doucement en laissant sonner.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Fin",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "iwill",
+   "title": "I Will",
+   "artist": "The Beatles",
+   "year": 1968,
+   "genre": "Ballade rock",
+   "key": "C",
+   "bpm": 102,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Du White Album. Grille ukutabs.com (en G) transposée en C pour éviter le Bm. Pas de barré, mais plusieurs accords nouveaux : Dm, Em, C7, D.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Em"
+      ]
+     ]
+    },
+    {
+     "name": "Pré-refrain",
+     "bars": [
+      [
+       "C7"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "F",
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F",
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F",
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "D"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "looselips",
+   "title": "Loose Lips",
+   "artist": "Kimya Dawson",
+   "year": 2006,
+   "genre": "Anti-folk",
+   "key": "C",
+   "bpm": 150,
+   "bpb": 4,
+   "pattern": "DUDUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "La moitié des Moldy Peaches, même humour. Grille ukutabs.com (en La) transposée en C : une seule boucle de tes accords. Rapide : démarre vers 60 %.",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hermandune",
+   "title": "I Wish That I Could See You Soon",
+   "artist": "Herman Düne",
+   "year": 2006,
+   "genre": "Anti-folk",
+   "key": "C",
+   "bpm": 112,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Grille Cifra Club, jouée en formes de C à la guitare (capo 5) : une seule boucle, uniquement tes accords. Tempo approximatif.",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tireswing",
+   "title": "Tire Swing",
+   "artist": "Kimya Dawson",
+   "year": 2004,
+   "genre": "Anti-folk",
+   "key": "F",
+   "bpm": 116,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com, tonalité d'origine : F, C, C7 en boucle. Le C7 se fait avec un seul doigt.",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C7"
+      ],
+      [
+       "C7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "minegrita",
+   "title": "Mi Negrita",
+   "artist": "Devendra Banhart",
+   "year": 2007,
+   "lang": "es",
+   "genre": "Anti-folk",
+   "key": "Dm",
+   "bpm": 96,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Boléro. Grille ukutabs.com (en Mi mineur) descendue d'un ton pour éviter Bm et D : F#m9 simplifié en Em. Nouveaux : Dm, G7, Em, sans barré.",
+   "sections": [
+    {
+     "name": "Intro",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "C"
+      ]
+     ]
+    },
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meetingplace",
+   "title": "The Meeting Place",
+   "artist": "The Last Shadow Puppets",
+   "year": 2008,
+   "genre": "Ballade rock",
+   "key": "C",
+   "bpm": 100,
+   "bpb": 3,
+   "pattern": "D-DUD-",
+   "simple": "D-D-D-",
+   "diff": 3,
+   "note": "Valse. Grille ukutabs.com, tonalité d'origine, sans barré. Nouveaux : Em, Dm, G7.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mymistakes",
+   "title": "My Mistakes Were Made for You",
+   "artist": "The Last Shadow Puppets",
+   "year": 2008,
+   "genre": "Rock indé",
+   "key": "Am",
+   "bpm": 112,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com (en Sol mineur, avec Cm) transposée en Am : Am, Dm, G, E7. La montée de tonalité finale n'est pas incluse. Seul accord nouveau : Dm.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "Pré-refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "E7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "standingnext",
+   "title": "Standing Next to Me",
+   "artist": "The Last Shadow Puppets",
+   "year": 2008,
+   "genre": "Rock indé",
+   "key": "Am",
+   "bpm": 150,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com, tonalité d'origine. Nouveaux : Em et Dm. Rapide : démarre vers 60 %. Instrumental non inclus.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Em"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "leavebefore",
+   "title": "Leave Before the Lights Come On",
+   "artist": "Arctic Monkeys",
+   "year": 2006,
+   "genre": "Rock indé",
+   "key": "C",
+   "bpm": 140,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Single hors album. Grille ukutabs.com, tonalité d'origine ; le E final devient E7. Nouveaux : Em et Dm.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Dm"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Dm"
+      ]
+     ]
+    },
+    {
+     "name": "Pont",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "F"
+      ]
+     ]
+    },
+    {
+     "name": "Fin",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "northcountry",
+   "title": "Girl from the North Country",
+   "artist": "Bob Dylan",
+   "year": 1963,
+   "genre": "Folk",
+   "key": "C",
+   "bpm": 90,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com (en G, avec Bm) transposée en C : C, Em, F. La même grille pour les six couplets. Se joue plutôt en arpèges. Seul accord nouveau : Em.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "rep": "×6",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "thinktwice",
+   "title": "Don't Think Twice, It's All Right",
+   "artist": "Bob Dylan",
+   "year": 1963,
+   "genre": "Folk",
+   "key": "C",
+   "bpm": 100,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille ukutabs.com (en Mi) transposée en C pour éviter B et C#m. Nouveaux : C7 et D7, deux accords faciles. À l'origine en picking rapide.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ]
+     ]
+    },
+    {
+     "name": "Variation",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "C7"
+      ],
+      [
+       "F"
+      ],
+      [
+       "D7"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sugarman",
+   "title": "Sugar Man",
+   "artist": "Rodriguez",
+   "year": 1970,
+   "genre": "Folk",
+   "key": "Am",
+   "bpm": 84,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Grille ukulele-tabs.com, tonalité d'origine. E, Dm7 et Dm9 simplifiés en E7 et Dm. Le passage « Sugar Man » demande un Bb, un seul barré sur une mesure. Nouveaux : Dm, D7, Bb.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "« Sugar Man »",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "D7"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Bb"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rememberday",
+   "title": "Remember the Day",
+   "artist": "Sibylle Baier",
+   "year": 1973,
+   "genre": "Folk",
+   "key": "Am",
+   "bpm": 76,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille e-chords.com. Seuls les couplets sont inclus : le pont demande un Si majeur (barré). E simplifié en E7. Nouveaux : D et Em. À l'origine en arpèges.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "D"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fever",
+   "title": "Fever",
+   "artist": "Little Willie John · Peggy Lee",
+   "year": 1958,
+   "genre": "Jazz & soul",
+   "key": "Am",
+   "bpm": 130,
+   "bpb": 4,
+   "pattern": "--D---D-",
+   "simple": "D---D---",
+   "diff": 1,
+   "note": "Deux accords. Le rythme « Complet » tombe sur les temps 2 et 4, là où on claque des doigts.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dreams",
+   "title": "Dreams",
+   "artist": "Fleetwood Mac",
+   "year": 1977,
+   "genre": "Ballade rock",
+   "key": "F",
+   "bpm": 120,
+   "bpb": 4,
+   "pattern": "D-D-DUDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Deux accords pour toute la chanson (Fmaj7 et G6 à l'origine, F et G ici). Stevie Nicks chante grave : idéal pour toi.",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seaoflove",
+   "title": "Sea of Love",
+   "artist": "Cat Power (reprise de Phil Phillips)",
+   "year": 2000,
+   "genre": "Indie folk",
+   "key": "C",
+   "bpm": 79,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Boucle principale d'après l'analyse Hooktheory, transposée en C (original en Si). Un seul accord nouveau : D7, très facile.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "F"
+      ],
+      [
+       "D7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tempsamour",
+   "title": "Le temps de l'amour",
+   "artist": "Françoise Hardy",
+   "year": 1962,
+   "lang": "fr",
+   "genre": "Chanson",
+   "key": "Am",
+   "bpm": 132,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Trois accords seulement (Am, Dm, E7), grille vérifiée sur ukulele-tabs.com. Seul accord nouveau : Dm.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chanchan",
+   "title": "Chan Chan",
+   "artist": "Buena Vista Social Club",
+   "year": 1997,
+   "lang": "es",
+   "genre": "Latino",
+   "key": "Am",
+   "bpm": 82,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Transposée en La mineur (original en Ré mineur). Une seule boucle pour tout le morceau. Seul accord nouveau : Dm.",
+   "sections": [
+    {
+     "name": "Toute la chanson",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "llorona",
+   "title": "La Llorona",
+   "artist": "Traditionnel mexicain · Chavela Vargas",
+   "year": null,
+   "lang": "es",
+   "genre": "Latino",
+   "key": "Am",
+   "bpm": 96,
+   "bpb": 3,
+   "pattern": "D-DUDU",
+   "simple": "D-D-D-",
+   "diff": 2,
+   "note": "Valse à 3 temps. Grille simplifiée, les versions varient beaucoup. Chavela Vargas chantait très grave.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "« Ay de mí, Llorona »",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "backtoblack",
+   "title": "Back to Black",
+   "artist": "Amy Winehouse",
+   "year": 2006,
+   "genre": "Jazz & soul",
+   "key": "Am",
+   "bpm": 123,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Transposée en La mineur (original en Ré mineur). Grille simplifiée. Seul accord nouveau : Dm. Amy chante grave, dans ta zone.",
+   "sections": [
+    {
+     "name": "Couplet et refrain",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "F"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wywh",
+   "title": "Wish You Were Here",
+   "artist": "Pink Floyd",
+   "year": 1975,
+   "genre": "Ballade rock",
+   "key": "G",
+   "bpm": 62,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille simplifiée du couplet, sans l'intro. Seul accord nouveau : D.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "D"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "D"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "if",
+   "title": "If",
+   "artist": "Pink Floyd",
+   "year": 1970,
+   "genre": "Ballade rock",
+   "key": "G",
+   "bpm": 72,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Grille vérifiée sur le site de fans Pink Floyd & Co (original en Mi), transposée en G pour éviter les barrés : la même grille pour les quatre couplets, fin sur G. Nouveaux : A et D7, deux accords faciles. Tempo approximatif.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "rep": "×4",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "A"
+      ],
+      [
+       "D7"
+      ],
+      [
+       "G"
+      ],
+      [
+       "D7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scarborough",
+   "title": "Scarborough Fair",
+   "artist": "Traditionnel · Simon & Garfunkel",
+   "year": null,
+   "genre": "Folk trad",
+   "key": "Am",
+   "bpm": 100,
+   "bpb": 3,
+   "pattern": "D-DUDU",
+   "simple": "D-D-D-",
+   "diff": 2,
+   "note": "Valse à 3 temps. Seul accord nouveau : D.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "D"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wayfaring",
+   "title": "Wayfaring Stranger",
+   "artist": "Traditionnel américain",
+   "year": null,
+   "genre": "Folk trad",
+   "key": "Am",
+   "bpm": 72,
+   "bpb": 4,
+   "pattern": "D-D-DUDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Ballade lente en mineur. Seul accord nouveau : Dm, qui se forme depuis F en ajoutant un doigt.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "F"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fastcar",
+   "title": "Fast Car",
+   "artist": "Tracy Chapman",
+   "year": 1988,
+   "genre": "Folk",
+   "key": "C",
+   "bpm": 104,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Grille simplifiée : la guitare d'origine joue un motif en arpèges. Deux accords nouveaux : Em et D. Tracy Chapman est contralto.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "rep": "×2",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "D"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desierto",
+   "title": "El Desierto",
+   "artist": "Lhasa de Sela",
+   "year": 1997,
+   "lang": "es",
+   "genre": "Latino",
+   "key": "Am",
+   "bpm": 76,
+   "bpb": 4,
+   "pattern": "D-D-DUDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Transposée en La mineur (original en Do mineur). L'ordre des accords vient de Cifra Club ; la durée de chaque accord est approximative, écoute l'original pour caler. Nouveaux : Dm et D.",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "C"
+      ],
+      [
+       "D"
+      ],
+      [
+       "D"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "femmefatale",
+   "title": "Femme Fatale",
+   "artist": "The Velvet Underground & Nico",
+   "year": 1967,
+   "genre": "Indie folk",
+   "key": "C",
+   "bpm": 92,
+   "bpb": 4,
+   "pattern": "D-DUDUDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Grille de Cifra Club, Fmaj7 simplifié en F. Nico chante très grave. Nouveaux : Dm et Bb, le seul accord barré du carnet (une seule mesure).",
+   "sections": [
+    {
+     "name": "Couplet",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "G"
+      ]
+     ]
+    },
+    {
+     "name": "Refrain",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "Bb"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "st-quarter",
+   "cat": "strum",
+   "title": "Coups vers le bas",
+   "artist": "Un coup par temps, sur C",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 70,
+   "bpb": 4,
+   "pattern": "D-D-D-D-",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "La base de tout : un coup vers le bas par temps, poignet souple, en comptant 1-2-3-4. Vise la régularité, pas la force.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-eighths",
+   "cat": "strum",
+   "title": "Bas-haut en continu",
+   "artist": "Croches, sur C",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 70,
+   "bpb": 4,
+   "pattern": "DUDUDUDU",
+   "simple": "DUDUDUDU",
+   "diff": 1,
+   "note": "La main descend sur les temps et remonte entre les temps, sans jamais s'arrêter. C'est ce mouvement de balancier qui sert de base à tous les autres rythmes.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-island",
+   "cat": "strum",
+   "title": "Le rythme passe-partout",
+   "artist": "↓ · ↓↑ · ↑↓↑, sur C",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 70,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-DU-UDU",
+   "diff": 2,
+   "note": "Le rythme le plus utilisé au ukulélé. Garde le balancier bas-haut en continu et rate volontairement la corde sur les points : la main bouge, mais ne touche pas.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-drive",
+   "cat": "strum",
+   "title": "Bas, bas-haut",
+   "artist": "↓ · ↓↑ ↓ · ↓↑, sur Am",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 80,
+   "bpb": 4,
+   "pattern": "D-DUD-DU",
+   "simple": "D-DUD-DU",
+   "diff": 2,
+   "note": "Rythme plus appuyé, typique du rock et de la soul. Accentue un peu les temps 1 et 3.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-waltz",
+   "cat": "strum",
+   "title": "Valse",
+   "artist": "3 temps, sur Am",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 90,
+   "bpb": 3,
+   "pattern": "D-DUDU",
+   "simple": "D-DUDU",
+   "diff": 1,
+   "note": "Pour Elephant Gun, Scarborough Fair, La Llorona ou The Meeting Place. Le premier temps est plus fort : UN-deux-trois.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-68",
+   "cat": "strum",
+   "title": "6/8 balancé",
+   "artist": "1-2-3, 4-5-6, sur C",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 150,
+   "bpb": 6,
+   "pattern": "D-UD-U",
+   "simple": "D-UD-U",
+   "diff": 2,
+   "note": "Deux groupes de trois par mesure, comme une berceuse. Appuie sur 1 et sur 4.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "st-offbeat",
+   "cat": "strum",
+   "title": "Contretemps",
+   "artist": "Seulement les ↑, sur Am",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 80,
+   "bpb": 4,
+   "pattern": "-U-U-U-U",
+   "simple": "-U-U-U-U",
+   "diff": 3,
+   "note": "Le balancier continue, mais on ne touche les cordes qu'en remontant. Plus dur qu'il n'y paraît : compte « 1 et 2 et » à voix haute.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-c-am",
+   "cat": "change",
+   "title": "C ↔ Am",
+   "artist": "Un seul doigt change de place",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "L'annulaire quitte la corde de La, le majeur se pose sur Sol. Prépare le doigt suivant pendant le dernier temps.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-am-f",
+   "cat": "change",
+   "title": "Am ↔ F",
+   "artist": "On ajoute un doigt",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Garde le majeur posé sur Sol et ajoute seulement l'index. C'est le changement le plus facile de tous.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-c-f",
+   "cat": "change",
+   "title": "C ↔ F",
+   "artist": "Deux doigts",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "F"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-f-dm",
+   "cat": "change",
+   "title": "F ↔ Dm",
+   "artist": "On ajoute l'annulaire",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 1,
+   "note": "Dm, c'est F plus l'annulaire sur la 2e case de Do. Idéal pour apprendre Dm sans effort.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Dm"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-c-g",
+   "cat": "change",
+   "title": "C ↔ G",
+   "artist": "Le triangle",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Pose les trois doigts du G en même temps, comme un tampon, plutôt qu'un par un.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "G"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-f-g",
+   "cat": "change",
+   "title": "F ↔ G",
+   "artist": "Toute la main bouge",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Le changement le plus courant des chansons pop. Regarde la forme du G avant de lever la main du F.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-am-e7",
+   "cat": "change",
+   "title": "Am ↔ E7",
+   "artist": "Le duo des chansons en mineur",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Le majeur reste sur la 2e case, il glisse juste de la corde de Sol à celle de Do. Garde-le en contact.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-g-em",
+   "cat": "change",
+   "title": "G ↔ Em",
+   "artist": "Nouveau : Em",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "G"
+      ],
+      [
+       "Em"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-g-d",
+   "cat": "change",
+   "title": "G ↔ D",
+   "artist": "Nouveau : D",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Pour D, trois doigts serrés sur la 2e case. Si c'est trop serré, essaie avec un seul doigt couché.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "D"
+      ],
+      [
+       "G"
+      ],
+      [
+       "D"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-g7-c",
+   "cat": "change",
+   "title": "G7 → C",
+   "artist": "La résolution",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "G7"
+      ],
+      [
+       "C"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ch-f-bb",
+   "cat": "change",
+   "title": "F ↔ Bb",
+   "artist": "Ton premier barré",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Couche l'index sur la 1re case des cordes Mi et La, pas plus. Commence très lentement, le son peut friser au début.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "F"
+      ],
+      [
+       "Bb"
+      ],
+      [
+       "F"
+      ],
+      [
+       "Bb"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-50s",
+   "cat": "seq",
+   "title": "C · Am · F · G",
+   "artist": "La boucle des années 50",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "La grille de centaines de chansons, dont Stand By Me. Les quatre accords que tu connais déjà.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Am"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-desc",
+   "cat": "seq",
+   "title": "Am · G · F · E7",
+   "artist": "La descente",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "La ligne de Hit the Road Jack, Feeling Good ou Jimmy. Uniquement tes accords.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "G"
+      ],
+      [
+       "F"
+      ],
+      [
+       "E7"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-minor",
+   "cat": "seq",
+   "title": "Am · Dm · E7 · Am",
+   "artist": "Le mineur classique",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 2,
+   "note": "Wayfaring Stranger, Le temps de l'amour, Back to Black : cette boucle ouvre beaucoup de chansons.",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Am"
+      ],
+      [
+       "Dm"
+      ],
+      [
+       "E7"
+      ],
+      [
+       "Am"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-cem",
+   "cat": "seq",
+   "title": "C · Em · F · G",
+   "artist": "Avec Em",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "F"
+      ],
+      [
+       "G"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-gdemc",
+   "cat": "seq",
+   "title": "G · D · Em · C",
+   "artist": "Avec D et Em",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "",
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "G"
+      ],
+      [
+       "D"
+      ],
+      [
+       "Em"
+      ],
+      [
+       "C"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-251",
+   "cat": "seq",
+   "title": "Dm · G7 · C · F",
+   "artist": "La boucle d'Elephant Gun",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 100,
+   "bpb": 3,
+   "pattern": "D-DUD-",
+   "simple": "D-D-D-",
+   "diff": 3,
+   "note": "En valse. C'est la grille de tout Elephant Gun.",
+   "tags": [
+    "r",
+    "a"
+   ],
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "Dm"
+      ],
+      [
+       "G7"
+      ],
+      [
+       "C"
+      ],
+      [
+       "F"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sq-two",
+   "cat": "seq",
+   "title": "Deux accords par mesure",
+   "artist": "C G · Am F",
+   "exercise": true,
+   "genre": "Exercice",
+   "key": "",
+   "bpm": 60,
+   "bpb": 4,
+   "pattern": "D-DU-UDU",
+   "simple": "D-D-D-D-",
+   "diff": 3,
+   "note": "Le vrai test : deux changements par mesure, comme dans Let It Be. Commence à 60 % de la vitesse.",
+   "tags": [
+    "r",
+    "a"
+   ],
+   "sections": [
+    {
+     "name": "Boucle",
+     "bars": [
+      [
+       "C",
+       "G"
+      ],
+      [
+       "Am",
+       "F"
+      ],
+      [
+       "C",
+       "G"
+      ],
+      [
+       "F",
+       "C"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "plan": [
+  [
+   [
+    "st-quarter",
+    2,
+    70
+   ],
+   [
+    "ch-c-am",
+    2,
+    60
+   ],
+   [
+    "ch-am-f",
+    2,
+    60
+   ],
+   [
+    "sq-50s",
+    2,
+    60
+   ],
+   [
+    "nantes",
+    3,
+    60
+   ]
+  ],
+  [
+   [
+    "st-eighths",
+    2,
+    70
+   ],
+   [
+    "ch-c-f",
+    2,
+    60
+   ],
+   [
+    "ch-c-g",
+    2,
+    60
+   ],
+   [
+    "sq-desc",
+    2,
+    60
+   ],
+   [
+    "jimmy",
+    3,
+    60
+   ]
+  ],
+  [
+   [
+    "st-island",
+    2,
+    60
+   ],
+   [
+    "ch-f-g",
+    2,
+    60
+   ],
+   [
+    "ch-am-e7",
+    2,
+    60
+   ],
+   [
+    "sq-50s",
+    2,
+    75
+   ],
+   [
+    "postcards",
+    3,
+    55
+   ]
+  ],
+  [
+   [
+    "st-island",
+    2,
+    75
+   ],
+   [
+    "ch-f-dm",
+    2,
+    60
+   ],
+   [
+    "ch-c-g",
+    2,
+    75
+   ],
+   [
+    "sq-minor",
+    2,
+    60
+   ],
+   [
+    "tempsamour",
+    3,
+    55
+   ]
+  ],
+  [
+   [
+    "st-waltz",
+    2,
+    70
+   ],
+   [
+    "ch-f-dm",
+    2,
+    75
+   ],
+   [
+    "ch-am-e7",
+    2,
+    75
+   ],
+   [
+    "sq-minor",
+    2,
+    70
+   ],
+   [
+    "llorona",
+    3,
+    65
+   ]
+  ],
+  [
+   [
+    "st-drive",
+    2,
+    65
+   ],
+   [
+    "ch-g-em",
+    2,
+    60
+   ],
+   [
+    "ch-f-g",
+    2,
+    75
+   ],
+   [
+    "sq-cem",
+    2,
+    60
+   ],
+   [
+    "northcountry",
+    3,
+    65
+   ]
+  ],
+  [
+   [
+    "st-island",
+    2,
+    85
+   ],
+   [
+    "ch-g-em",
+    2,
+    75
+   ],
+   [
+    "ch-g7-c",
+    2,
+    60
+   ],
+   [
+    "sq-cem",
+    2,
+    70
+   ],
+   [
+    "greencolour",
+    3,
+    65
+   ]
+  ],
+  [
+   [
+    "st-68",
+    2,
+    65
+   ],
+   [
+    "ch-g-d",
+    2,
+    60
+   ],
+   [
+    "ch-g-em",
+    2,
+    85
+   ],
+   [
+    "sq-gdemc",
+    2,
+    60
+   ],
+   [
+    "alas",
+    3,
+    65
+   ]
+  ],
+  [
+   [
+    "st-waltz",
+    2,
+    85
+   ],
+   [
+    "ch-g7-c",
+    2,
+    75
+   ],
+   [
+    "ch-f-dm",
+    2,
+    85
+   ],
+   [
+    "sq-251",
+    2,
+    60
+   ],
+   [
+    "elephantgun",
+    3,
+    55
+   ]
+  ],
+  [
+   [
+    "st-eighths",
+    2,
+    90
+   ],
+   [
+    "ch-g-d",
+    2,
+    75
+   ],
+   [
+    "ch-f-g",
+    2,
+    90
+   ],
+   [
+    "sq-two",
+    2,
+    55
+   ],
+   [
+    "queenbee",
+    3,
+    65
+   ]
+  ],
+  [
+   [
+    "st-offbeat",
+    2,
+    60
+   ],
+   [
+    "ch-g-d",
+    2,
+    85
+   ],
+   [
+    "sq-gdemc",
+    2,
+    75
+   ],
+   [
+    "sq-two",
+    2,
+    65
+   ],
+   [
+    "if",
+    3,
+    70
+   ]
+  ],
+  [
+   [
+    "st-drive",
+    2,
+    85
+   ],
+   [
+    "ch-am-e7",
+    2,
+    90
+   ],
+   [
+    "sq-minor",
+    2,
+    85
+   ],
+   [
+    "sq-251",
+    2,
+    75
+   ],
+   [
+    "hongkong",
+    3,
+    70
+   ]
+  ],
+  [
+   [
+    "st-island",
+    2,
+    95
+   ],
+   [
+    "ch-f-bb",
+    2,
+    55
+   ],
+   [
+    "ch-g7-c",
+    2,
+    90
+   ],
+   [
+    "sq-two",
+    2,
+    75
+   ],
+   [
+    "meetingplace",
+    3,
+    70
+   ]
+  ],
+  [
+   [
+    "st-offbeat",
+    2,
+    75
+   ],
+   [
+    "ch-f-bb",
+    2,
+    70
+   ],
+   [
+    "sq-gdemc",
+    2,
+    90
+   ],
+   [
+    "sq-251",
+    2,
+    90
+   ],
+   [
+    "sugarman",
+    3,
+    65
+   ]
+  ]
+ ],
+ "reviewFrom": 7
+}

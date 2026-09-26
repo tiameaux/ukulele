@@ -1,0 +1,29 @@
+{
+  "chords": {
+    "Bm": { "frets": [4, 2, 2, 2], "fingers": [3, 1, 1, 1], "tip": "Petit barré : l'index couché sur la 2e case des cordes Do, Mi et La, annulaire 4e case sur Sol." }
+  },
+  "exercises": [
+    {
+      "id": "ch-am-dm",
+      "cat": "change",
+      "title": "Am ↔ Dm",
+      "desc": "Deux doigts bougent",
+      "diff": 1,
+      "note": "Le majeur reste sur la 2e case de Sol. Ajoute l'annulaire sur Do et l'index sur Mi.",
+      "sections": [ { "name": "Boucle", "bars": ["Am", "Dm", "Am", "Dm"] } ]
+    },
+    {
+      "id": "ch-g-bm",
+      "cat": "change",
+      "title": "G ↔ Bm",
+      "desc": "Nouveau : Bm, un petit barré",
+      "diff": 3,
+      "note": "Commence très lentement. Le Bm débloque beaucoup de chansons en Ré et en Sol.",
+      "sections": [ { "name": "Boucle", "bars": ["G", "Bm", "G", "Bm"] } ]
+    }
+  ],
+  "plan": [
+    [ ["st-island", 2, 90], ["ch-am-dm", 2, 70], ["ch-g-bm", 2, 50], ["sq-minor", 2, 90], ["jimmy", 3, 85] ]
+  ],
+  "planMode": "append"
+}
